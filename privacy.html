@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — FirstChapter</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #FDF2F4; color: #4a4a4a; line-height: 1.6; }
+    .container { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .back { display: inline-block; color: #D4979B; text-decoration: none; font-size: 0.95rem; margin-bottom: 2rem; }
+    .back:hover { text-decoration: underline; }
+    h1 { font-size: 2rem; color: #1a1a1a; margin-bottom: 0.25rem; }
+    .updated { color: #9ca3af; font-size: 0.9rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.2rem; color: #1a1a1a; margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #4a4a4a; }
+    ul { margin: 0.5rem 0 0.75rem 1.25rem; }
+    li { margin-bottom: 0.5rem; font-size: 0.95rem; color: #4a4a4a; }
+    li strong { color: #1a1a1a; }
+    .email { color: #D4979B; text-decoration: none; }
+    .email:hover { text-decoration: underline; }
+    .disclaimer { margin-top: 2.5rem; font-size: 0.85rem; color: #9ca3af; font-style: italic; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">&larr; Back to FirstChapter</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: March 1, 2026</p>
+
+    <h2>Introduction</h2>
+    <p>FirstChapter ("we", "our", or "us") is committed to protecting your privacy and the privacy of your family. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. By using FirstChapter, you consent to the practices described herein.</p>
+
+    <h2>Information We Collect</h2>
+    <p>We collect the following categories of information that you provide directly to us:</p>
+    <ul>
+      <li><strong>Account Information:</strong> Email address, name, and profile photo when you create an account.</li>
+      <li><strong>Baby Information:</strong> Your child's name, date of birth, gender, and photos you choose to add to their profile.</li>
+      <li><strong>Voice Recordings:</strong> Audio recordings you create when capturing voice memories. These recordings are processed by AI to generate journal entries and are stored securely in your account.</li>
+      <li><strong>Photos and Media:</strong> Images and videos you upload or capture within the app to accompany your journal entries.</li>
+      <li><strong>Text Content:</strong> Written journal entries, milestone notes, and any other text you enter into the app.</li>
+      <li><strong>Usage Data:</strong> App usage patterns, feature interactions, device information, and crash reports collected automatically to help us improve the service.</li>
+    </ul>
+
+    <h2>How AI Processes Your Data</h2>
+    <p>FirstChapter uses artificial intelligence to transform your voice recordings into written journal entries. Here is how this works:</p>
+    <ul>
+      <li><strong>Voice Transcription:</strong> Your voice recordings are sent to OpenAI's Whisper API to be transcribed into text. The audio is processed in real-time and is not retained by OpenAI after transcription is complete.</li>
+      <li><strong>Journal Generation:</strong> The transcribed text is sent to Anthropic's Claude API to generate a polished, beautifully written journal entry. Your data is not used to train AI models.</li>
+      <li><strong>Data Retention:</strong> Both your original voice recordings and the AI-generated journal entries are stored securely in your private account. You can delete either at any time.</li>
+    </ul>
+
+    <h2>Data Storage and Security</h2>
+    <p>We take the security of your data seriously:</p>
+    <ul>
+      <li>Your data is stored using Supabase, which provides enterprise-grade infrastructure hosted on Amazon Web Services (AWS). All data is encrypted at rest using AES-256 encryption.</li>
+      <li>All data transmitted between your device and our servers is encrypted using TLS 1.3.</li>
+      <li>Photos and voice recordings are stored in private storage buckets accessible only through authenticated, signed URLs.</li>
+      <li>Row-level security policies ensure that users can only access their own data and data explicitly shared with them.</li>
+    </ul>
+    <p>We do not sell, rent, or trade your personal information to third parties.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>We use the following third-party services to operate FirstChapter:</p>
+    <ul>
+      <li><strong>OpenAI (Whisper):</strong> Voice transcription. Processes audio recordings to produce text transcripts. Subject to OpenAI's privacy policy.</li>
+      <li><strong>Anthropic (Claude):</strong> Journal entry generation. Processes transcribed text to create polished journal entries. Subject to Anthropic's privacy policy.</li>
+      <li><strong>Sentry:</strong> Crash reporting and error monitoring. Collects anonymous crash data and diagnostic information to help us fix bugs and improve stability. No personal content is included in crash reports.</li>
+      <li><strong>RevenueCat:</strong> Subscription management. Processes purchase transactions and manages your subscription status. RevenueCat receives your anonymous user ID and purchase history but not your personal content.</li>
+      <li><strong>Apple / Google:</strong> Payment processing. All subscription payments are processed through the Apple App Store or Google Play Store. We do not directly collect or store payment card information.</li>
+      <li><strong>Supabase:</strong> Backend infrastructure, database, file storage, and authentication. Hosted on AWS with data centers in the United States.</li>
+    </ul>
+
+    <h2>Sharing With Family</h2>
+    <p>You may choose to share memories with family members by inviting them to your baby's profile. When you invite someone, they will have access to the memories and information you choose to share. You control who has access and can revoke access at any time from the Family settings. Family members you invite will need to create their own FirstChapter account.</p>
+
+    <h2>Your Rights</h2>
+    <p>You have the following rights regarding your data:</p>
+    <ul>
+      <li><strong>Access and Export:</strong> You can access and download all of your data at any time using the Export feature in Settings.</li>
+      <li><strong>Correction:</strong> You can correct or update your personal information and journal entries at any time within the app.</li>
+      <li><strong>Deletion:</strong> You can delete individual memories, or delete your entire account and all associated data from the Account settings. Account deletion is permanent and cannot be undone.</li>
+      <li><strong>Opt Out:</strong> You can opt out of marketing communications and push notifications at any time from the Notification settings.</li>
+      <li><strong>Data Portability:</strong> You can request a complete copy of your data in a standard, machine-readable format by contacting us.</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>FirstChapter is designed for parents and caregivers (adults aged 18 and older) to document their children's early years. We want to be clear about how children's data is handled:</p>
+    <ul>
+      <li>The app is used by parents, not by children. All accounts must be created by adults.</li>
+      <li>Parents voluntarily provide information about their children (name, date of birth, photos, milestones) to use the journaling features. This information is stored under the parent's account and is controlled entirely by the parent.</li>
+      <li>We do not knowingly collect personal information directly from children under 13. Children do not interact with the app.</li>
+      <li>Parents can delete all information about their children at any time by removing the child's profile from the app or by deleting their account.</li>
+      <li>If you believe information about a child has been collected inappropriately, please contact us immediately at <a href="mailto:firstchapterapp@gmail.com" class="email">firstchapterapp@gmail.com</a>.</li>
+    </ul>
+
+    <h2>Data Retention</h2>
+    <p>We retain your data for as long as your account is active. If you delete your account, all associated data (including journal entries, voice recordings, photos, and baby profiles) will be permanently deleted from our servers within 30 days. Backup copies may persist in encrypted backups for up to 90 days before being purged.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by sending an email to the address associated with your account and by updating the "Last updated" date at the top of this page. We encourage you to review this Privacy Policy periodically. Continued use of the app after changes are posted constitutes your acceptance of the revised policy.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+    <p><a href="mailto:firstchapterapp@gmail.com" class="email">firstchapterapp@gmail.com</a></p>
+
+    <p class="disclaimer">This privacy policy is provided for informational purposes. We recommend consulting with a qualified legal professional for advice specific to your jurisdiction.</p>
+  </div>
+</body>
+</html>
